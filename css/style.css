@@ -6,8 +6,38 @@
 ********************************************/
 
 /********************************************
-*
+* GLOBAL STYLES
 ********************************************/
+/*html, body {
+	font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Didact Gothic", "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+}*/
+
+main {
+	padding-top: 50px;
+}
+
+/********************************************
+* Flexbox Column Height Control
+* Equal height content boxes using Flexbox CSS
+*
+* Author: rlewis37
+********************************************/
+.row-flex {
+	display: flex;
+	flex: 1 1 auto;
+}
+
+.row-flex-wrap {
+	-webkit-flex-flow: row wrap;
+	align-content: flex-start;
+	flex: 0;
+}
+
+.row-flex > div[class*="col-"] {
+	display: flex;
+	flex: 1 1 auto;
+	margin: -.2px;
+}
 
 /***
 * Flexbox Sticky Footer
