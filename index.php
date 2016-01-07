@@ -69,7 +69,7 @@
 						<div class="row">
 							<div class="col-xs-12">
 								<div class="jumbotron">
-									<h2>Dylan McDonald</h2>
+									<h1>Dylan McDonald</h1>
 									<p class="small">Computer scientist, teacher, free thinker, lover of green chile, & the universe around me.</p>
 								</div>
 							</div>
@@ -78,7 +78,7 @@
 				</section>
 
 				<!--teaching-->
-				<section class="parallax" data-stellar-background-ratio="0.5" id="welcome">
+				<section class="parallax" data-stellar-background-ratio="0.5" id="teaching">
 					<div class="container">
 						<div class="row">
 							<div class="col-xs-12">
@@ -95,7 +95,7 @@
 				</section>
 
 				<!--coding-->
-				<section>
+				<section id="coding">
 					<div class="container">
 						<div class="row">
 							<div class="col-xs-12">
@@ -112,19 +112,19 @@
 				</section>
 
 				<!--advocacy-->
-				<section>
+				<section id="advocacy">
 					<div class="container">
-						<h2>Advocacy</h2>
+						<h2 class="text-center">Advocacy</h2>
 						<div class="row row-flex row-flex-wrap">
 							<div class="col-sm-6">
-								<div>
+								<div class="box-dark">
 									<h3>IPv6</h3>
 									<p>I have always been an early adopter and advocate of IPv6. The sooner we all transition from legacy IPv4 to IPv6, the faster and smoother the internet will operate. Excuses to stay with IPv4 are running out faster than IPv4 addresses themselves! IPv6 is easy to deploy and program.</p>
 									<p>I have deployed dual stacked IPv4/IPv6 mail and web services for my main domain, as well as integrated IPv6 awareness in the main curriculum at Deep Dive Coders.</p>
 								</div>
 							</div>
 							<div class="col-sm-6">
-								<div>
+								<div class="box-dark">
 									<h3>Net Neutrality</h3>
 									<p>The internet was designed as an equal playing field for all involved. Letting other players decide which traffic has priority over which cuts at the very fabric the internet is woven with. A free, transparent, and open internet is the only way to ensure the well being of the internet we have all come to enjoy these past decades.</p>
 								</div>
@@ -132,7 +132,7 @@
 						</div>
 						<div class="row">
 							<div class="col-xs-12">
-								<blockquote class="blockquote-reverse">
+								<blockquote class="blockquote-center blockquote-dark">
 									<p>"I hope we will use the Net to cross barriers and connect cultures."</p>
 									<footer>Tim Berners-Lee</footer>
 								</blockquote>
@@ -170,8 +170,11 @@
 										<textarea name="message" id="message" cols="30" rows="10" class="form-control"></textarea>
 									</div>
 									<div class="form-group">
-										<button type="reset" class="btn btn-default">Clear</button>
-										<button type="submit" class="btn btn-primary">Send</button>
+										<div class="pull-right">
+											<button type="reset" class="btn btn-default">Clear</button>
+											<button type="submit" class="btn btn-primary">Send</button>
+										</div>
+										<div class="clearfix"></div>
 									</div>
 								</form>
 							</div>
@@ -181,7 +184,7 @@
 			</main>
 		</div><!--.sfooter-content-->
 
-		<footer>
+		<footer class="footer">
 			<div class="container">
 				&copy;&nbsp;footer here
 			</div>
