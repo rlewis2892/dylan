@@ -30,9 +30,6 @@
 		<!-- Bootstrap latest complied and minified JavaScript -->
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 
-		<!-- Stellar.js -->
-		<script src="js/jquery.stellar.min.js" type="text/javascript"></script>
-
 		<!-- Custom JS -->
 		<script src="js/dylan.js" type="text/javascript"></script>
 
@@ -47,13 +44,13 @@
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapsed">
 								<span class="sr-only">Main Menu</span>
-								<i class="fa fa-th fa-2x"></i>
+								<i class="fa fa-bars fa-lg"></i>
 							</button>
 							<a class="navbar-brand" href="#">Deep Dive Dylan</a>
 						</div>
 						<div class="collapse navbar-collapse" id="navbar-collapsed">
 							<ul class="nav navbar-nav navbar-right">
-								<li><a href="#top"><i class="fa fa-home"></i></a></li>
+								<li><a href="#"><i class="fa fa-home fa-lg"></i></a></li>
 								<li><a href="#about">About</a></li>
 								<li><a href="#">Resume</a></li>
 								<li><a role="button" data-toggle="modal" data-target="#contactModal">Contact</a></li>
@@ -82,7 +79,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-xs-12">
-								<h2>Teaching</h2>
+								<h2 id="about">Teaching</h2>
 								<p>I have been teaching in some capacity since 2004. Computer science has been my craft all my life. A craft is only as good as its practitioners. And the better the practitioners, the better the craft. My purpose in life is to improve the craft, one student at a time.</p>
 								<p>My teaching technique is an honest look at the challenges we all face in this rigorous field: persevere, make mistakes, and learn from the difficulties even senior software developers face. It is based on fostering pragmatic, steadfast, and thorough problem solvers - rather than people who simply know how to type code.</p>
 								<blockquote class="blockquote-reverse">
